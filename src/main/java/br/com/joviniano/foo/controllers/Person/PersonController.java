@@ -1,11 +1,10 @@
-package br.com.joviniano.foo.controllers.Math;
+package br.com.joviniano.foo.controllers.Person;
 
 import br.com.joviniano.foo.models.Person;
 import br.com.joviniano.foo.services.Person.PersonService;
 import org.springframework.beans.factory.annotation.Autowired;
 import org.springframework.http.MediaType;
 import org.springframework.web.bind.annotation.*;
-import org.springframework.web.context.annotation.RequestScope;
 
 import java.util.List;
 
